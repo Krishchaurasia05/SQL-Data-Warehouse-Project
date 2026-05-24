@@ -49,3 +49,8 @@ Hey there! I am **Krish Chaurasia** an aspiring Data Analyst and Data Engineer p
 I’m currently building projects using Excel, SQL, Python, and Power BI while strengthening my skills in data analytics and data engineering fundamentals.
 
 I enjoy creating dashboards, analyzing datasets, and learning how data-driven solutions support better decision-making.
+
+## Connect With Me
+
+- LinkedIn: www.linkedin.com/in/krishchaurasia
+- Email: krishchaurasia244@gmail.com
