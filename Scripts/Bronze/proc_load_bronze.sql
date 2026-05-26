@@ -132,5 +132,3 @@ DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @b
 		PRINT '======================================================';
 	END CATCH
 END;
-
-EXEC bronze.load_bronze
