@@ -48,7 +48,7 @@ CREATE TABLE bronze.crm_sales_details(
 	sls_due_date 		INT,
 	sls_sales 			INT,
 	sls_quantity 		INT,
-	sls_prize 			INT
+	sls_price 			INT
 );
 Go
 
