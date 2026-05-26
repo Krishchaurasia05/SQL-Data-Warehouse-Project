@@ -133,7 +133,7 @@ BEGIN
 	        sls_shipping_date,
 	        sls_due_date,
 	        sls_sales,
-	        sls_prize,
+	        sls_price,
 	        sls_quantity
             )
             SELECT 
@@ -150,14 +150,14 @@ BEGIN
                      ELSE CAST(CAST(sls_due_date AS VARCHAR) AS DATE)
                 END sls_due_date,
                 CASE 
-                    WHEN sls_sales <= 0 OR sls_sales IS NULL OR sls_sales != sls_quantity * ABS(sls_prize) 
-                    THEN sls_quantity * ABS(sls_prize)
+                    WHEN sls_sales <= 0 OR sls_sales IS NULL OR sls_sales != sls_quantity * ABS(sls_price) 
+                    THEN sls_quantity * ABS(sls_price)
 	                ELSE sls_sales
 	            end sls_sales,
                 CASE
-	                WHEN sls_prize <= 0 OR sls_prize IS NULL THEN sls_sales / NULLIF(sls_quantity,0)
-	                else sls_prize
-                END sls_prize,
+	                WHEN sls_price <= 0 OR sls_price IS NULL THEN sls_sales / NULLIF(sls_quantity,0)
+	                else sls_price
+                END sls_price,
                 sls_quantity
               FROM bronze.crm_sales_details
 
