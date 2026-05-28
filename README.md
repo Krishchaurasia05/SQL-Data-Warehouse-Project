@@ -88,18 +88,7 @@ The project follows a layered Data Warehouse architecture:
 
 # 📂 Project Structure
 
-```text
-sales-data-warehouse/
-│
-├── datasets/
-├── bronze_layer/
-├── silver_layer/
-├── gold_layer/
-├── sql_scripts/
-├── documentation/
-├── screenshots/
-└── README.md
-```
+tree/ f
 
 ---
 
