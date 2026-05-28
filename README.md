@@ -114,19 +114,6 @@ sales-data-warehouse/
 
 ---
 
-# 📸 Project Screenshots
-
-(Add screenshots of your SQL tables, schema diagrams, ETL workflows, or dashboards here.)
-
-Example:
-
-* Database schema
-* ETL execution
-* Fact and dimension tables
-* Query results
-
----
-
 # 📈 Business Use Cases
 
 This warehouse can support:
