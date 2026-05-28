@@ -57,6 +57,8 @@ Develop a SQL Server-based Data Warehouse to centralize and transform sales data
 
 The project follows a layered Data Warehouse architecture:
 
+![Data Architecture](diagrams/data_architecture.png)
+
 ### Bronze Layer
 
 * Raw data ingestion from source systems
