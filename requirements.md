@@ -1,25 +1,24 @@
 ## 🚀 Project Requirements
 
-### Building the Data Warehouse (Data Engineering)
+### Building the Data Warehouse
 
 #### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+Design and develop a modern SQL Server-based Data Warehouse to consolidate and transform sales data from multiple source systems, enabling efficient analytical reporting and data-driven decision-making.
 
----
+#### Project Requirements
 
-### BI: Analytics & Reporting (Data Analysis)
+* Import and integrate sales data from two different source systems (ERP and CRM) provided in CSV format.
+* Perform data cleansing and preprocessing to handle inconsistencies, duplicates, missing values, and other data quality issues.
+* Build a unified, business-friendly data model optimized for analytical and reporting purposes.
+* Develop ETL workflows using SQL Server to extract, transform, and load data into the warehouse.
+* Focus on processing the latest available dataset; historical data tracking (historization) is out of scope.
+* Create clear and structured documentation for the data model, ETL process, and overall warehouse architecture to support analytics teams and business stakeholders.
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+#### Tech Stack
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+* SQL Server
+* T-SQL
+* CSV Data Sources
+* ETL Processes
+* Data Modeling
