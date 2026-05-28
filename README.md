@@ -88,8 +88,44 @@ The project follows a layered Data Warehouse architecture:
 
 # 📂 Project Structure
 
-tree/ f
-
+---text
+.
+├── Datasets/
+│   ├── source_crm/
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_details.csv
+│   └── source_erp/
+│       ├── CUST_AZ12.csv
+│       ├── LOC_A101.csv
+│       └── PX_CAT_G1V2.csv
+├── Docs/
+│   ├── data_architecture.drawio
+│   ├── data_architecture.png
+│   ├── data_catalog.md
+│   ├── data_flow.drawio
+│   ├── data_flow.png
+│   ├── data_integration.drawio
+│   ├── data_integration.png
+│   ├── data_mart.drawio
+│   └── data_mart.png
+├── Scripts/
+│   ├── Bronze/
+│   │   ├── ddl_bronze.sql
+│   │   └── proc_load_bronze.sql
+│   ├── Gold/
+│   │   └── ddl_gold.sql
+│   ├── Silver/
+│   │   ├── ddl_silver.sql
+│   │   └── proc_load_silver.sql
+│   └── init_database.sql
+├── Tests/
+│   ├── quality_checks_gold.sql
+│   └── quality_checks_silver.sql
+├── LICENSE
+├── README.md
+└── requirements.md
+---
 ---
 
 # 📊 Key Features
