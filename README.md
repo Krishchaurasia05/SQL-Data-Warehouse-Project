@@ -88,7 +88,7 @@ The project follows a layered Data Warehouse architecture:
 
 # 📂 Project Structure
 
----text
+```text
 .
 ├── Datasets/
 │   ├── source_crm/
@@ -125,7 +125,7 @@ The project follows a layered Data Warehouse architecture:
 ├── LICENSE
 ├── README.md
 └── requirements.md
----
+```
 ---
 
 # 📊 Key Features
