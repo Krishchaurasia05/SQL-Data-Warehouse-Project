@@ -174,5 +174,5 @@ I enjoy creating dashboards, analyzing datasets, and learning how data-driven so
 
 ## Connect With Me
 
-- LinkedIn:[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/krishchaurasia)
+- LinkedIn: www.linkedin.com/in/krishchaurasia
 - Email: krishchaurasia244@gmail.com
