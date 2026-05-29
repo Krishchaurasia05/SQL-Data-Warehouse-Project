@@ -325,16 +325,6 @@ The Gold layer analytical model directly supports:
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Add Power BI dashboard connected to the Gold layer
-- [ ] Implement incremental loading to replace full-refresh ETL
-- [ ] Add SCD Type 2 historization for customer dimension
-- [ ] Schedule ETL execution via SQL Server Agent
-- [ ] Containerize the project using Docker for cross-platform setup
-
----
-
 ## 📚 Documentation
 
 | Document | Description |
@@ -350,7 +340,7 @@ The Gold layer analytical model directly supports:
 
 ## 👨‍💻 About Me
 
-I'm **Krish Chaurasia**, a BTech student in **Artificial Intelligence and Data Science** at Mahakal Institute of Technology, Ujjain (RGPV University affiliated), graduating in 2028.
+I'm **Krish Chaurasia**, a BTech student in **Artificial Intelligence and Data Science**
 
 I build end-to-end data projects — from raw ingestion to analytical models — to develop real engineering skills beyond classroom theory. This Data Warehouse project represents my deepest technical work to date: a full production-style pipeline covering architecture, ETL, data modeling, quality testing, and documentation.
 
