@@ -308,23 +308,6 @@ The Gold layer analytical model directly supports:
 
 ---
 
-## 💡 Challenges & Key Learnings
-
-**Hardest technical problems solved:**
-
-1. **Cross-system key mismatch** — ERP and CRM used completely different customer ID formats. Solved by writing pattern-matching normalization logic in Silver stored procedures to create a consistent join key across both systems.
-
-2. **Data quality at scale** — Real-world CSVs had inconsistent nulls, invalid dates, and duplicate records. Built dedicated quality check scripts rather than ad-hoc fixes, establishing a repeatable validation process.
-
-3. **Schema design trade-offs** — Deciding what belongs in dimensions vs. facts vs. bridge tables required multiple iterations. Learned to think from the "query backwards" — start with what business questions need to be answered, then design the schema around those joins.
-
-**Key takeaways:**
-- Good ETL is mostly about trust — if downstream users don't trust the data, no dashboard matters
-- Documentation written during the project is 10× better than documentation written after
-- A data warehouse is a product, not just a database — it has users, requirements, and SLAs
-
----
-
 ## 📚 Documentation
 
 | Document | Description |
