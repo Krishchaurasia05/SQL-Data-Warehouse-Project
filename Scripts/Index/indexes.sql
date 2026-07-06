@@ -220,3 +220,45 @@ ON silver.erp_cust_info (e_cst_cid);
 GO
 
 
+-- ============================================================
+-- SECTION 4: DROP INDEXES
+-- USE ONLY IF YOU NEED TO REBUILD OR REMOVE INDEXES
+-- Uncomment and run selectively as needed
+-- ============================================================
+
+/*
+-- Drop indexes on silver.crm_sales_details
+DROP INDEX idx_crm_sales_order_date     ON silver.crm_sales_details;
+DROP INDEX idx_crm_sales_date_amount    ON silver.crm_sales_details;
+DROP INDEX idx_crm_sales_product_key    ON silver.crm_sales_details;
+DROP INDEX idx_crm_sales_product_date   ON silver.crm_sales_details;
+DROP INDEX idx_crm_sales_customer_id    ON silver.crm_sales_details;
+DROP INDEX idx_crm_sales_customer_amount ON silver.crm_sales_details;
+
+-- Drop indexes on silver.crm_cust_info
+DROP INDEX idx_crm_cust_key             ON silver.crm_cust_info;
+DROP INDEX idx_crm_cust_id              ON silver.crm_cust_info;
+DROP INDEX idx_crm_cust_gender          ON silver.crm_cust_info;
+DROP INDEX idx_crm_cust_unique_key      ON silver.crm_cust_info;
+
+-- Drop indexes on silver.erp_cust_info
+DROP INDEX idx_erp_cust_cid             ON silver.erp_cust_info;
+DROP INDEX idx_erp_cust_unique_cid      ON silver.erp_cust_info;
+
+-- Drop indexes on silver.erp_loc
+DROP INDEX idx_erp_loc_cid              ON silver.erp_loc;
+DROP INDEX idx_erp_loc_country          ON silver.erp_loc;
+
+-- Drop indexes on silver.crm_product_info
+DROP INDEX idx_crm_product_key          ON silver.crm_product_info;
+DROP INDEX idx_crm_product_end_date     ON silver.crm_product_info;
+DROP INDEX idx_crm_product_cat          ON silver.crm_product_info;
+DROP INDEX idx_crm_product_start_date_id ON silver.crm_product_info;
+DROP INDEX idx_crm_product_unique_key   ON silver.crm_product_info;
+
+-- Drop indexes on silver.erp_px_cat
+DROP INDEX idx_erp_px_cat_id            ON silver.erp_px_cat;
+DROP INDEX idx_erp_px_category          ON silver.erp_px_cat;
+*/
+
+
