@@ -54,7 +54,7 @@ GO
 
 
 -- ============================================================
--- SECTION 5: VERIFY INDEX USAGE WITH EXECUTION PLAN
+-- SECTION 2: VERIFY INDEX USAGE WITH EXECUTION PLAN
 -- In SSMS: Press Ctrl + M before running query
 -- Look for "Index Seek"  = index IS being used     ✅
 -- Look for "Table Scan"  = index is NOT being used  ❌
